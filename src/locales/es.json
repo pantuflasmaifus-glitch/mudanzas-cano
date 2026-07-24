@@ -1,0 +1,78 @@
+{
+  "RootLayout": {
+    "home_link": "Inicio",
+    "about_link": "Nosotros",
+    "counter_link": "Contador",
+    "portfolio_link": "Servicios",
+    "sign_in_link": "Iniciar sesión",
+    "sign_up_link": "Registrarse"
+  },
+  "BaseTemplate": {
+    "description": "Servicios de mudanza en todo México",
+    "footer_text": "© {year} {name}. Hecho con <author></author>.",
+    "main_navigation_label": "Navegación principal"
+  },
+  "Index": {
+    "meta_title": "Mudanzas Cano — Servicios de mudanza en todo México",
+    "meta_description": "Mudanzas locales, foráneas y empacado profesional en todo México. Cotiza gratis tu mudanza segura y sin estrés.",
+    "sponsors_title": "Patrocinadores",
+    "zap_emoji_label": "Rayo"
+  },
+  "Counter": {
+    "meta_title": "Contador",
+    "meta_description": "Un ejemplo de operación con base de datos",
+    "security_powered_by": "Seguridad, detección de bots y limitación de tasa con tecnología de"
+  },
+  "CounterForm": {
+    "presentation": "El contador se almacena en la base de datos y se incrementa según el valor que proporciones.",
+    "label_increment": "Incrementar en",
+    "button_increment": "Incrementar",
+    "error_increment_range": "El valor debe estar entre 1 y 3"
+  },
+  "CurrentCount": {
+    "count": "Total: {count}"
+  },
+  "About": {
+    "meta_title": "Nosotros",
+    "meta_description": "Conoce a Mudanzas Cano",
+    "about_paragraph": "Somos un equipo apasionado dedicado a que tu mudanza sea segura y sin complicaciones.",
+    "translation_powered_by": "Traducción con tecnología de"
+  },
+  "Portfolio": {
+    "meta_title": "Servicios",
+    "meta_description": "Nuestros servicios de mudanza",
+    "presentation": "Conoce nuestros servicios de mudanza local, foránea y empacado profesional.",
+    "portfolio_name": "Servicio {name}",
+    "error_reporting_powered_by": "Reporte de errores con tecnología de"
+  },
+  "PortfolioSlug": {
+    "meta_title": "Servicio {slug}",
+    "meta_description": "Descripción del servicio {slug}",
+    "header": "Servicio {slug}",
+    "content": "Servicio de mudanza profesional con personal capacitado, embalaje seguro y unidades equipadas.",
+    "code_review_powered_by": "Revisión de código con tecnología de"
+  },
+  "SignIn": {
+    "meta_title": "Iniciar sesión",
+    "meta_description": "Inicia sesión en tu cuenta de forma sencilla y segura."
+  },
+  "SignUp": {
+    "meta_title": "Registrarse",
+    "meta_description": "Crea tu cuenta de forma rápida e intuitiva."
+  },
+  "Dashboard": {
+    "hello_message": "¡Hola {email}!",
+    "alternative_message": "¿Necesitas funciones avanzadas? Prueba <url></url>.",
+    "max_message": "¿O necesitas autenticación autoalojada? Prueba <url></url>."
+  },
+  "DashboardLayout": {
+    "meta_title": "Panel",
+    "meta_description": "Administra tu cuenta desde el panel.",
+    "dashboard_link": "Panel",
+    "user_profile_link": "Administra tu cuenta",
+    "sign_out": "Cerrar sesión"
+  },
+  "LocaleSwitcher": {
+    "change_language": "Cambiar idioma"
+  }
+}
