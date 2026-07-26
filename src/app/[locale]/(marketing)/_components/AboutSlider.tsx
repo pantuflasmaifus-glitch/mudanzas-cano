@@ -3,17 +3,15 @@
 import { useRef } from 'react';
 
 const GALLERY = [
-  { src: 'photo-1600518464441-9154a4dea21b', alt: 'Equipo de Mudanzas Cano cargando cajas en el camión' },
-  { src: 'photo-1530124566582-a618bc2615dc', alt: 'Cajas empacadas y etiquetadas listas para la mudanza' },
-  { src: 'photo-1521737604893-d14cc237f11d', alt: 'Personal profesional y capacitado de mudanzas' },
-  { src: 'photo-1558618666-fcd25c85cd64', alt: 'Unidad de transporte equipada para mudanzas foráneas' },
-  { src: 'photo-1595246140625-573b715d11dc', alt: 'Muebles protegidos con material de embalaje' },
-  { src: 'photo-1600585152220-90363fe7e115', alt: 'Familia feliz llegando a su nuevo hogar' },
-  { src: 'photo-1581578731548-c64695cc6952', alt: 'Acomodo cuidadoso de pertenencias en el nuevo domicilio' },
-  { src: 'photo-1600880292203-757bb62b4baf', alt: 'Asesoría personalizada para planear tu mudanza' },
+  { src: '/1.jpg', alt: 'Camión de Mudanzas Cano con la rampa lista para cargar frente a una casa' },
+  { src: '/2.jpg', alt: 'Camioneta de Mudanzas Cano con cajas empacadas y etiquetadas listas para el traslado' },
+  { src: '/9.jpg', alt: 'Personal amable y capacitado de Mudanzas Cano listo para tu mudanza' },
+  { src: '/8.jpg', alt: 'Equipo de Mudanzas Cano protegiendo muebles con cobertores y cargando cajas' },
+  { src: '/4.jpg', alt: 'Bodega y guardamuebles de Mudanzas Cano con montacargas y personal' },
+  { src: '/6.jpg', alt: 'Unidad de carga de Mudanzas Cano equipada para mudanzas foráneas' },
+  { src: '/3.jpg', alt: 'Cobertores y cinta de embalaje profesional de Mudanzas Cano para proteger tus muebles' },
+  { src: '/7.jpg', alt: 'Camión de gran capacidad de Mudanzas Cano para mudanzas de gran volumen' },
 ];
-
-const imageUrl = (id: string) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=640&q=70`;
 
 export const AboutSlider = () => {
   const trackRef = useRef<HTMLDivElement>(null);
@@ -35,7 +33,7 @@ export const AboutSlider = () => {
         {GALLERY.map(image => (
           <figure key={image.src} className="group snap-start overflow-hidden rounded-2xl border border-sky-100 bg-white shadow-card">
             <img
-              src={imageUrl(image.src)}
+              src={image.src}
               alt={image.alt}
               loading="lazy"
               className="h-56 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-64"
