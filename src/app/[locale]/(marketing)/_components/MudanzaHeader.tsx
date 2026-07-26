@@ -18,19 +18,8 @@ export const MudanzaHeader = () => {
   return (
     <header className="sticky top-0 z-50 border-b border-sky-100 bg-white/85 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
-        <a href="#inicio" className="flex items-center gap-2.5" aria-label={SiteConfig.name}>
-          <span className="flex size-10 items-center justify-center rounded-xl bg-gradient-to-br from-sky-400 to-sky-600 text-white shadow-soft">
-            <svg viewBox="0 0 24 24" className="size-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <path d="M10 17h4V5H2v12h3" />
-              <path d="M20 17h2v-3.34a4 4 0 0 0-1.17-2.83L19 9h-5v8h1" />
-              <circle cx="7.5" cy="17.5" r="2.5" />
-              <circle cx="17.5" cy="17.5" r="2.5" />
-            </svg>
-          </span>
-          <span className="flex flex-col leading-none">
-            <span className="font-display text-lg font-extrabold text-sky-900">Mudanzas Cano</span>
-            <span className="text-[11px] font-medium tracking-wide text-sky-600">Tu mudanza sin estrés</span>
-          </span>
+        <a href="#inicio" className="flex items-center" aria-label={SiteConfig.name}>
+          <img src="/Logo.png" alt={SiteConfig.name} className="h-10 w-auto sm:h-12" />
         </a>
 
         <nav className="hidden items-center gap-7 lg:flex" aria-label="Navegación principal">
