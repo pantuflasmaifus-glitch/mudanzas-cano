@@ -140,8 +140,8 @@ export const MudanzaLanding = () => (
           <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-tr from-sky-300/30 to-sky-100/10 blur-2xl" aria-hidden="true" />
           <div className="relative overflow-hidden rounded-3xl border border-sky-100 bg-white p-2 shadow-card">
             <img
-              src="https://images.unsplash.com/photo-1600518464441-9154a4dea21b?auto=format&fit=crop&w=1000&q=80"
-              alt="Equipo de mudanza profesional cargando cajas en un camión"
+              src="/1.jpg"
+              alt="Camión de Mudanzas Cano con la rampa lista para cargar frente a una casa"
               className="h-80 w-full rounded-2xl object-cover sm:h-96 lg:h-[28rem]"
               loading="eager"
             />
